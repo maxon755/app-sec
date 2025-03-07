@@ -68,19 +68,20 @@ Even though WireShark allows to inspect decrypted and decompressed content (gzip
 
 The DNS records for `pentest-ground.com`:
 
-| Type | Hostname                | IP Address     |
-| ---- | ----------------------- | -------------- |
-| A    | pentest-ground.com      | 178.79.134.182 |
-| MX   | mail.pentest-ground.com | 192.248.188.61 |
-| SOA  | ns1.linode.com          | 92.123.94.2    |
-| SOA  | ns1.linode.com          | 2600:14c0:6::2 |
-| NS   | ns3.linode.com          | 92.123.95.3    |
-| NS   | ns3.linode.com          | 2600:14c0:7::3 |
-| NS   | ns1.linode.com          | 92.123.94.2    |
-| NS   | ns1.linode.com          | 2600:14c0:6::2 |
-| NS   | ns2.linode.com          | 92.123.94.3    |
-| NS   | ns2.linode.com          | 2600:14c0:6::3 |
-| NS   | ns5.linode.com          | 92.123.95.2    |
-| NS   | ns5.linode.com          | 2600:14c0:7::2 |
-| NS   | ns4.linode.com          | 92.123.95.4    |
-| NS   | ns4.linode.com          | 2600:14c0:7::4 |
+| Type | Hostname                      | IP Address     |
+| ---- | ----------------------------- | -------------- |
+| A    | pentest-ground.com            | 178.79.134.182 |
+| A    | playground.pentest-ground.com | 70.34.253.159  |
+| MX   | mail.pentest-ground.com       | 192.248.188.61 |
+| SOA  | ns1.linode.com                | 92.123.94.2    |
+| SOA  | ns1.linode.com                | 2600:14c0:6::2 |
+| NS   | ns3.linode.com                | 92.123.95.3    |
+| NS   | ns3.linode.com                | 2600:14c0:7::3 |
+| NS   | ns1.linode.com                | 92.123.94.2    |
+| NS   | ns1.linode.com                | 2600:14c0:6::2 |
+| NS   | ns2.linode.com                | 92.123.94.3    |
+| NS   | ns2.linode.com                | 2600:14c0:6::3 |
+| NS   | ns5.linode.com                | 92.123.95.2    |
+| NS   | ns5.linode.com                | 2600:14c0:7::2 |
+| NS   | ns4.linode.com                | 92.123.95.4    |
+| NS   | ns4.linode.com                | 2600:14c0:7::4 |
