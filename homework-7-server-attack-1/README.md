@@ -34,3 +34,9 @@ The solution of the [lab](https://portswigger.net/web-security/file-path-travers
 ![dir-traversal-2](dir-traversal-2.png)
 
 The path prefix `../../../` is URL-encoded twice
+
+## Task 3. File upload
+
+The solution of the [lab](https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-web-shell-upload) is presented below:
+
+![file-upload](file-upload.png)
