@@ -4,7 +4,7 @@
 
 The solution of the [lab](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files) is presented below:
 
-![alt text](xxe.png)
+![xxe](xxe.png)
 
 The malicious payload allowed to get content of `/etc/passwd`:
 
@@ -15,3 +15,14 @@ The malicious payload allowed to get content of `/etc/passwd`:
     <productId>&xxe;</productId>
     <storeId>1</storeId>
 </stockCheck>
+```
+
+## Task 2. Directory traversal
+
+### Part 1
+
+The solution of the [lab](https://portswigger.net/web-security/file-path-traversal/lab-absolute-path-bypass) is presented below:
+
+![dir-traversal-1](dir-traversal-1.png)
+
+The application blocks traversal sequences but treats the supplied filename as being relative to a default working directory.
