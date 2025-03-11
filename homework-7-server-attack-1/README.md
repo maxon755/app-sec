@@ -26,3 +26,11 @@ The solution of the [lab](https://portswigger.net/web-security/file-path-travers
 ![dir-traversal-1](dir-traversal-1.png)
 
 The application blocks traversal sequences but treats the supplied filename as being relative to a default working directory.
+
+### Part 2
+
+The solution of the [lab](https://portswigger.net/web-security/file-path-traversal/lab-superfluous-url-decode) is presented below:
+
+![dir-traversal-2](dir-traversal-2.png)
+
+The path prefix `../../../` is URL-encoded twice
