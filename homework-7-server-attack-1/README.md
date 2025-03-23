@@ -1,4 +1,4 @@
-# HOMEWORK 7. Attack to server. Part 1
+# HOMEWORK 7. Server-side attacks. Part 1
 
 ## Task 1. XXE attack
 
