@@ -98,3 +98,20 @@ And execute `stock` request with with path as `stockApi`:
 The lab is solved 🎉
 
 ![lab2-solved](lab2-solved.png)
+
+## SSTI
+
+### Task 3. Basic server-side template injection
+
+The [lab](https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic)
+
+The attempt of getting first products details is failed because `Unfortunately this product is out of stock`. But the rendered message is present in query parameters.
+Probably, everything passed by this parameter will be rendered by template engine.  
+
+![lab3-page-1](lab3-page-1.png)
+
+The app uses ERB as template engine (given from task)
+
+The payload `<%25+system("rm+/home/carlos/morale.txt")+%25>` as `message` query param solves the lab 🎉
+
+![lab3-solved](lab3-solved.png)
