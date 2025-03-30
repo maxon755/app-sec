@@ -1,4 +1,4 @@
-# HOMEWORK 9. Server-side attacks. Part 2
+# Homework 9. Server-side attacks. Part 2
 
 ## Task 1. Username enumeration via different responses
 
